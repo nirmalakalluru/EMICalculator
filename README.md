@@ -96,21 +96,3 @@ The program assumes a positive principal amount, a positive annual interest rate
 The output is not formatted to a fixed number of decimal places.
 The program does not include additional fees, taxes, or other loan charges.
 Input validation is not implemented.
-🔮 Future Improvements
-Format the EMI result to two decimal places.
-Add input validation for invalid or negative values.
-Allow the user to calculate EMI for multiple loans without restarting the program.
-Display the total repayment amount and total interest payable.
-Handle zero-interest loans separately.
-👨‍💻 Author
-Created as a Java programming practice project to understand basic input handling and mathematical calculations.
-
-Tip: To make the README more polished, consider formatting the EMI output to two decimal places:
-
-
-java
-System.out.printf("Your monthly EMI is: %.2f%n", emi);
-This displays the monthly EMI with exactly two digits after the decimal point, which is standard for currency calculations.
-
-
-
